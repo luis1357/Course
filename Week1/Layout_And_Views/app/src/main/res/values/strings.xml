@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layout_And_Views</string>
+    <string name="hello">Hello</string>
+    <string name="do_magic">Do Magic</string>
+    <string name="go_to_second">Go to Second</string>
+    <string name="passing_an_object_to_the_second_activity">Passing an object to the second activity.</string>
+    <string name="pass_person_to_second">Pass Person To Second</string>
+    <string name="KEY_VALUE1">value1</string>
+    <string name="name">Name:</string>
+    <string name="m2Name">TextView</string>
+    <string name="m2Gender">TextView</string>
+    <string name="m2Value">TextView</string>
+    <string name="gender">Gender:</string>
+    <string name="value">Value:</string>
+</resources>
