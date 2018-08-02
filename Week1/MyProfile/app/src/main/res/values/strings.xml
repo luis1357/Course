@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyProfile</string>
+    <string name="PrflPctrDscrptn">My Profile Picture</string>
+    <string name="NmLbl">Name: </string>
+    <string name="NmTxt">Luis Enriquez</string>
+    <string name="DOBLbl">Day of Birth: </string>
+    <string name="DOBTxt">June 15th of 1991</string>
+    <string name="Edctn">Education: </string>
+    <string name="EdctnTxt">Master of Science in Electronics Engineering and Computation</string>
+    <string name="Exprnc">Experience: </string>
+    <string name="ExprncTxt">Worked as Software developer at Metalsa</string>
+    <string name="Hbbs">Hobbies:</string>
+    <string name="HbbsTxt">Play Guitar, Play video games, play with my husky, Read</string>
+    <string name="Othrs">Others:</string>
+    <string name="OthrsTxt">I like Forests.</string>
+</resources>

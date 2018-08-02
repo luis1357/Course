@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiPerfil</string>
+    <string name="PrflPctrDscrptn">Mi foto de perfil</string>
+    <string name="NmLbl">Nombre: </string>
+    <string name="NmTxt">Luis Enriquez</string>
+    <string name="DOBLbl">Día de Nacimiento: </string>
+    <string name="DOBTxt">Junio 15 de 1991</string>
+    <string name="Edctn">Educacion: </string>
+    <string name="EdctnTxt">Maestria en Ciencias en Ingenieria Electronica y Computacion</string>
+    <string name="Exprnc">Experiencia: </string>
+    <string name="ExprncTxt">Desarrollador de software para Metalsa</string>
+    <string name="Hbbs">Pasa Tiempos:</string>
+    <string name="HbbsTxt">Tocar la guitarra, jugar video juegos, jugar con mi husky, leer</string>
+    <string name="Othrs">Otros:</string>
+    <string name="OthrsTxt">Me gustan los bosques.</string>
+</resources>
