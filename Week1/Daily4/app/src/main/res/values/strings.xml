@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Daily4</string>
+    <string name="daily_4_application">Daily 4 Application</string>
+    <string name="https_www_google_com">https://www.google.com</string>
+    <string name="surf_the_web">Surf the Web</string>
+    <string name="go">Go</string>
+    <string name="make_a_call">Make a Call</string>
+    <string name="PhoneNumber">+5218443929733</string>
+    <string name="call">Call</string>
+    <string name="take_a_picture">Take a Picture</string>
+    <string name="capture">Capture</string>
+    <string name="share">Share</string>
+    <string name="say_hello_via_e_mail">Say Hello via E-mail</string>
+    <string name="email">luis.enriquez1357@gmail.com</string>
+    <string name="say_hello">Say hello!</string>
+</resources>

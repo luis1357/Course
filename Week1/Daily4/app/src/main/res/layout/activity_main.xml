@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/daily_4_application"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/txtBxWeb"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/https_www_google_com" />
+
+    <TextView
+        android:id="@+id/lblWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtBxWeb"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-86dp"
+        android:text="@string/surf_the_web" />
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtBxWeb"
+        android:layout_toEndOf="@+id/txtBxWeb"
+        android:text="@string/go"
+        android:onClick="SurfTheWeb"/>
+
+    <TextView
+        android:id="@+id/lblCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtBxWeb"
+        android:text="@string/make_a_call" />
+
+    <EditText
+        android:id="@+id/txtBxCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblCall"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/PhoneNumber" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblCall"
+        android:layout_toEndOf="@+id/txtBxWeb"
+        android:text="@string/call"
+        android:onClick="MakeCall"/>
+
+    <TextView
+        android:id="@+id/lblPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtBxCall"
+        android:text="@string/take_a_picture" />
+
+    <ImageView
+        android:id="@+id/ivPht"
+        android:layout_width="217dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblPic"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btnCptr"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/lblPic"
+        android:text="@string/capture"
+        android:onClick="CapturePhoto"/>
+
+    <Button
+        android:id="@+id/btnShr"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPht"
+        android:layout_alignParentEnd="true"
+        android:text="@string/share"
+        android:onClick="ShrImg"/>
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ivPht"
+        android:text="@string/say_hello_via_e_mail" />
+
+    <EditText
+        android:id="@+id/txtBxEmail"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblEmail"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/email" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/lblEmail"
+        android:text="@string/say_hello"
+        android:onClick="SayHello"/>
+
+</RelativeLayout>
