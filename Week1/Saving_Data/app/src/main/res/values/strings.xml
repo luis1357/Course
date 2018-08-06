@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Saving_Data</string>
+    <string name="myDefault">Default</string>
+    <string name="send_to_second">Send Person</string>
+    <string name="share_data">Share Data</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
