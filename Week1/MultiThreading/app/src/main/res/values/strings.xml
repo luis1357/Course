@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiThreading</string>
+    <string name="using_thread_class">Using Thread Class</string>
+    <string name="using_runnable_interface">Using Runnable Interface</string>
+    <string name="using_asynctask">Using AsyncTask</string>
+    <string name="using_threadhandlermessage">Using ThreadHandlerMessage</string>
+</resources>

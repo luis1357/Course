@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxJavaIntro</string>
+    <string name="start_observable">Start Observable</string>
+</resources>

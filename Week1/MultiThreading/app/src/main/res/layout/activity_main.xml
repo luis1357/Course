@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTesting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/btnThread"
+        android:onClick="ExecuteThreads"
+        android:text="@string/using_thread_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRunnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ExecuteThreads"
+        android:text="@string/using_runnable_interface"/>
+
+    <Button
+        android:id="@+id/btnAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ExecuteThreads"
+        android:text="@string/using_asynctask" />
+
+    <!-- Communicating from Thread using Message in Handler. -->
+    <Button
+        android:id="@+id/btnThreadHandlerMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ExecuteThreads"
+        android:text="@string/using_threadhandlermessage"/>
+
+    <TextView
+        android:id="@+id/tvThreadHandlerMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"/>
+
+
+
+</LinearLayout>

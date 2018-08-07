@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">W2Daily1</string>
+    <string name="week_2_daily_1">Week 2 Daily 1</string>
+    <string name="_4_threads_with_progress">4 Threads with progress</string>
+    <string name="thread_1">Thread 1</string>
+    <string name="thread_2">Thread 2</string>
+    <string name="thread_3">Thread 3</string>
+    <string name="thread_4">Thread 4</string>
+    <string name="hit_da_button">Hit Da Button!</string>
+</resources>
