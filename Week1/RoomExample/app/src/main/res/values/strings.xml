@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RoomExample</string>
+    <string name="save_book">Save Book</string>
+    <string name="get_all_books">Get All Books</string>
+    <string name="book_isbn">Book ISBN</string>
+    <string name="book_name">Book Name</string>
+    <string name="book_author">Book Author</string>
+</resources>

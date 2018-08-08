@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Week2Day2</string>
+    <string name="title_activity_table_out">TableOut</string>
+    <string name="go_to_list">Go To List</string>
+    <string name="week_2_daily_2">Week 2 Daily 2</string>
+    <string name="sqlite_excercise">SQLite Excercise</string>
+    <string name="genre">Genre</string>
+    <string name="year">Year</string>
+    <string name="author">Author</string>
+    <string name="book_name">Book Name</string>
+    <string name="add_new_book">Add New Book</string>
+</resources>
