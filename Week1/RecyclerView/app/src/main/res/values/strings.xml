@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="celebrities">Celebrities</string>
+    <string name="go_to_recycler">Go To Recycler</string>
+    <string name="title_activity_recycler">RecyclerActivity</string>
+</resources>

@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Detroit Zoo</string>
+    <string name="Detroit_Zoo">The Detroit Zoo is located about 2 miles (3.2 km) north of the
+                                Detroit city limits at the intersection of Woodward Avenue, 10 Mile
+                                Road, and Interstate 696 in Royal Oak and Huntington Woods,
+                                Michigan, United States. The Detroit Zoological Society (DZS),
+                                a non-profit organization, operates both the Detroit Zoo and
+                                the Belle Isle Nature Center, located in the city of Detroit.
+                                The Detroit Zoo is one of Michigan\'s largest family attractions,
+                                hosting more than 1.5 million visitors annually. Situated on 125
+                                acres of naturalistic exhibits, it provides a natural habitat for
+                                more than 2,000 animals representing 245 species. The Detroit Zoo
+                                was the first zoo in the United States to use barless exhibits
+                                extensively.
+    </string>
+    <string name="go_to_categories">Go To Categories</string>
+    <string name="detroit_zoo">Detroit_Zoo</string>
+    <string name="categories">Categories</string>
+
+    <!-- +-+-+-+ Zoo Animals +-+-+-+ -->
+
+    <!-- +-+-+ Amphibians +-+-+ -->
+    <string name="amphibians">Amphibians</string>
+
+    <string name="gopher_frog">Dusky gopher frog</string>
+    <string name="gopher_frog_dsc">The dusky gopher frog is medium-sized with a wart-covered
+                                    body that is black, brown or gray with dark spots. It has
+                                    ridges along its back. Typically found in southern Mississippi,
+                                    this frog prefers to be in stump holes or burrows. This species
+                                    has an estimated population of less than 150 in the wild. The
+                                    decline is mainly due to habitat destruction. The dusky gopher
+                                    frog is one of the top 100 most endangered species in the
+                                    world, according to the International Union for the
+                                    Conservation of Nature.</string>
+
+    <string name="japanese_salamander">Japanese giant salamander</string>
+    <string name="japanese_salamander_dsc">The second largest salamander in the world, it can
+                                            reach just over 4 feet long and weigh up to 88 pounds.
+                                            Its skin is a mixture of gray, black and white, and is
+                                            heavily wrinkled. This species has an elongated body,
+                                            a long broad tail and two pairs of legs that are
+                                            similar in size. The eyes are small and positioned
+                                            on top of the broad, flat head.</string>
+
+    <string name="mantella_frog">Mantella frog</string>
+    <string name="mantella_frog_dsc">The mantella frog is a part of a large family of frogs that
+                                        vary in color from yellow to red to orange. This very small
+                                        frog has aposematic colorations, which means its bright and
+                                        contrasting colors indicate toxins to potential predators.
+                                        In the wild, it uses the adhesive pads on its toes to stick
+                                        to trees and leaves. The male frog has a smaller body
+                                        compared to the female, which has a more angular body.
+                                        Like many amphibians, the mantella frog spends almost
+                                        all of its time on land.</string>
+
+    <!-- +-+-+ Birds +-+-+ -->
+    <string name="birds">Birds</string>
+
+    <string name="african_pygmy_goose">African pygmy goose</string>
+    <string name="african_pygmy_goose_dsc">The male African pygmy goose is mostly white, with
+                                            spots of green.  The female has a white face with gray
+                                            spots and black under the eyes.  Both the male and
+                                            female have a red tint on its belly with green marking
+                                            on the rest of its body. It has a short bill, a
+                                            rounded head and short legs.</string>
+
+    <string name="bald_eagle">Bald eagle</string>
+    <string name="bald_eagle_dsc">The adult bald eagle has a white head and tail with a dark brown
+                                    body and wings. Their legs and bills are bright yellow. Young
+                                    birds attain adult coloring in about five years.</string>
+
+    <string name="gentoo_penguin">Gentoo penguin</string>
+    <string name="gentoo_penguin_dsc">The gentoo is recognized by the white stripe extending across
+                                        its head and its bright red-orange bill. The bird also has
+                                        paddle-shaped, peach-colored feet and fine feathers that
+                                        help it glide easily and quickly through the water. It is
+                                        the third-largest penguin species, after the king and
+                                        emperor penguins.</string>
+
+    <!-- +-+-+ Invertebrates +-+-+ -->
+    <string name="invertebrates">Invertebrates</string>
+
+    <string name="butterfly">Butterfly</string>
+    <string name="butterfly_dsc">The butterfly has its skeleton on the outside of its body, called
+                                    an exoskeleton. This protects the butterfly and keeps water
+                                    inside its body so it doesn’t dry out.  The butterfly spends
+                                    much of its lifespan as egg, caterpillar and chrysalis, and
+                                    will only be in its winged adult form for a short period –
+                                    typically less than a month.</string>
+
+    <!-- +-+-+ Mammals +-+-+ -->
+    <string name="mammals">Mammals</string>
+
+    <string name="arctic_fox">Arctic fox</string>
+    <string name="arctic_fox_dsc">The arctic fox’s body is short and compact to help keep it warm
+                                    during frigid temperatures. Its feet are covered in fur to
+                                    provide traction on the rough tundra terrain. During the
+                                    winter, its fur color is white and during the summer it turns
+                                    to a brownish-gray, which allows it to remain camouflaged
+                                    year round.</string>
+
+    <string name="american_beaver">American beaver</string>
+    <string name="american_beaver_dsc">The largest rodent in North America has a lustrous reddish-
+                                        or blackish-brown, waterproof fur coat, webbed hind feet
+                                        and a broad, flat, scaly tail that is roughly 10 inches
+                                        long. The beaver has a disproportionately large skull and
+                                        four powerful, orange-colored teeth – two upper and two
+                                        lower incisors – that are used to gnaw on tree bark. Its
+                                        small, round ears can close to keep water out.</string>
+
+    <string name="miniature_donkey">Miniature donkey</string>
+    <string name="miniature_donkey_dsc">The miniature donkey resembles a horse and is characterized
+                                        by its large head, long ears and cow-like tail. It can be
+                                        black, white and all shades of brown and gray, but the most
+                                        common color is a mousy-gray called “gray dun”. It can be
+                                        spotted, speckled or striped and its hair can be straight,
+                                        curly, short and wiry or long and wooly. A solid-color
+                                        donkey has a dark dorsal stripe from mane to tail and a
+                                        dark stripe across its shoulders. It has an erect mane and
+                                        lacks the forelock of a horse.</string>
+
+    <string name="horse">Thoroughbred horse</string>
+    <string name="horse_dsc">The Thoroughbred horse is best known for being used in horse racing.
+                                It is most often bay, chestnut, seal brown, black or gray in color.
+                                The Thoroughbred horse tends to be high-spirited, fast and very
+                                athletic.</string>
+
+    <string name="otter">North American river otter</string>
+    <string name="otter_dsc">The river otter’s fur color ranges from white to gray, brown and
+                                black. The aquatic mammal has a long, cylindrical, streamlined body
+                                that sports short, dense, waterproof fur, profuse whiskers and
+                                short legs. The otter’s strong tail and webbed feet help propel
+                                it through the water, which makes it a great swimmer.
+                                Once abundant in U.S. and Canadian rivers, lakes and coastal
+                                areas, river otter populations have suffered significant declines
+                                as a result of fur trapping, water pollution, habitat destruction,
+                                pesticides and other threats.</string>
+
+    <!-- +-+-+ Mammals +-+-+ -->
+    <string name="reptiles">Reptiles</string>
+
+    <string name="african_spurred_tortoise">African spurred tortoise</string>
+    <string name="african_spurred_tortoise_dsc">The African spurred tortoise is well camouflaged by
+                                                its overall sandy coloration. It has thick golden
+                                                to yellow-brown skin and a brownish carapace. The
+                                                broad, oval carapace displays prominent serrations
+                                                at the front and back margins and noticeable growth
+                                                rings on each scute, which become marked with age.
+                                                Large overlapping scales cover the front surface of
+                                                the forelimbs, while the hind surface of the thigh
+                                                bears two or three large conical spurs, from which
+                                                it earns its name.</string>
+
+    <string name="chinese_alligator">Chinese alligator</string>
+    <string name="chinese_alligator_dsc">The Chinese alligator is dark green to yellowish gray with
+                                            black spotting on the lower jaw.  It is much smaller
+                                            than its American counterpart, with a slightly upturned
+                                            and more tapered snout as well as bony plates on its
+                                            upper eyelids.   Its long, thick tail is its primary
+                                            source of force while moving through the water.  The
+                                            Chinese alligator also has bony plates, or osteoderms,
+                                            covering its back and underside of the body to act as
+                                            armor.  Juveniles appear very similar to adults, but
+                                            have distinctive yellow bands on their bodies which
+                                            fade as they mature.</string>
+
+    <string name="rattlesnake">Mexican lance-headed rattlesnake</string>
+    <string name="rattlesnake_dsc">The dark blotched pattern of the snake is very distinctive
+                                    compared to other rattlesnakes. The blotches are often oval or
+                                    elongated at the front part of the body and become more
+                                    circular toward mid-body. Four to seven crossbands are usually
+                                    at the tail. Typically it has a tan, brown, gray or sometimes
+                                    white underside.</string>
+    <string name="animal_picture">Animal Picture</string>
+
+</resources>
