@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week2Test1</string>
+    <string name="add_a_new_car">Add a New Car</string>
+    <string name="enter_car_model">Enter Car Model</string>
+    <string name="type">Type</string>
+    <string name="year">Year</string>
+    <string name="add_new_car">Add New Car</string>
+</resources>
