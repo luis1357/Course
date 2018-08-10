@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Week2Day4</string>
+    <string name="week_2_day_4">Week 2 Day 4</string>
+
+    <!-- +-+-+-+ Biographies. +-+-+-+ -->
+    <string name="anna">Anna Henrietta</string>
+    <string name="anna_Als">Anarietta, Henarietta, Lady Duchess</string>
+    <string name="anna_Rce">Human</string>
+    <string name="anna_Nat">Toussaint</string>
+    <string name="anna_Prf">Duchess of Toussaint</string>
+    <string name="anna_Bio">Anna Henrietta was the ruling duchess of Toussaint, and beloved by all
+                            her people. She ruled the country with her husband Raymund until he
+                            died in 1265, two years before Geralt and his friends arrived in
+                            Toussaint, after which she ruled as the sole monarch.
+                            Her official, protocol title is "Her Enlightened Ladyship",
+                            unofficially "Her Grace" and in more casual matters outside the court
+                            she is to be referred to as "Lady Duchess." However, the Chamberlain
+                            and Marshal of the Court Sebastian Le Goff strongly advised Geralt to
+                            address her as "Your Grace" at all times. She is known to a select few
+                            by the shorter name, Anarietta. </string>
+
+    <string name="calanthe">Calanthe Fiona Riannon</string>
+    <string name="calanthe_Als">Ard Rhena, Lioness of Cintra, Modron</string>
+    <string name="calanthe_Rce">Human</string>
+    <string name="calanthe_Nat">Cintra</string>
+    <string name="calanthe_Prf">Queen of Cintra</string>
+    <string name="calanthe_Bio">Calanthe Fiona Riannon of Cintra, known also as the "Lioness of
+                                Cintra" and "Ard Rhena" ("High Queen" in Elder Speech), was a
+                                queen of Cintra, the mother of Pavetta, and grandmother of Ciri.
+                                Her nephew, Crach an Craite, called her "Modron". She was known
+                                for her bravery and beauty. </string>
+
+    <string name="cerys">Cerys an Craite</string>
+    <string name="cerys_Als">Sparrowhawk</string>
+    <string name="cerys_Rce">Human</string>
+    <string name="cerys_Nat">Skellige</string>
+    <string name="cerys_Prf">Queen of Skellige Isles</string>
+    <string name="cerys_Bio">Cerys an Craite, aka "Sparrowhawk", was the daughter of Crach an
+                                Craite, and Hjalmar\'s younger sister. The young woman was a
+                                courageous islander like her father and had inherited all his
+                                stubbornness. She was very self-confident and always ready to
+                                prove she could fulfill any task as good as a man, which caused
+                                her and Hjalmar to have a constant, but good-natured, rivalry.
+                                However, unlike her brother, she appeared more levelheaded,
+                                choosing to investigate and think things through first before
+                                jumping to conclusions.</string>
+
+    <string name="ciri">Cirilla Fiona Elen Riannon</string>
+    <string name="ciri_Als">Ciri, Lion Cub of Cintra, Falka, Zireael, Swallow, Ashen one</string>
+    <string name="ciri_Rce">Human</string>
+    <string name="ciri_Nat">Cintra</string>
+    <string name="ciri_Prf">Witcheress and Empress of Nilfgaard</string>
+    <string name="ciri_Bio">Cirilla Fiona Elen Riannon (also known as Ciri), was born in 1253,
+                            and most likely during the Belleteyn holiday. She was the sole princess
+                            of Cintra, the daughter of Pavetta and Emhyr var Emreis (who was using
+                            the alias "Duny" at the time) as well as Queen Calanthe\'s
+                            granddaughter.
+                            After Geralt of Rivia helped lift Duny\'s curse, Duny asked what
+                            reward the witcher would like and Geralt proclaimed the Law of
+                            Surprise, as it turned out Pavetta was pregnant with Ciri, unbeknownst
+                            to Duny. Six years to the day after the child's birth, Geralt went
+                            back to Cintra for her, but did not take her with him to Kaer Morhen
+                            at that time. In fact, he didn't even lay eyes on her and only spoke
+                            with Calanthe, who divulged no information to him, not even the
+                            child's gender.
+                            While she was still an infant, Ciri's parents were both lost in a
+                            storm at sea and were presumed dead. She spent her youth in Cintra
+                            and Skellige under the care of her grandmother and her uncle. </string>
+
+    <string name="aval">Crevan Espane aep Caomhan Macha</string>
+    <string name="aval_Als">Avallac\'h, Fox, The Mysterious Elf</string>
+    <string name="aval_Rce">Elf</string>
+    <string name="aval_Nat">Tir Na Lia</string>
+    <string name="aval_Prf">Aen Saevherne</string>
+    <string name="aval_Bio">Crevan Espane aep Caomhan Macha, also known as Avallac\'h (pronounced
+                            "Ah-vah-lahk"), was an elf and Aen Saevherne who had the ability of
+                            traveling between the worlds of the Aen Elle and Aen Seidhe. He met
+                            Geralt and told the witcher about a prophecy connected with Ciri. He
+                            was nicknamed \'Fox\' by the unicorns.
+                            Lara Dorren originally intended to marry him, before she fell in love
+                            with Cregennan of Lod.
+                            He was the one who brought Ciri to the Aen Elle king Auberon, promising
+                            Ciri that she would be allowed to return to her world, if she conceived
+                            a child with the king. Eredin however claimed that Avallac'h was
+                            lying. </string>
+
+    <string name="emhy">Emhyr var Emreis</string>
+    <string name="emhy_Als">Duny, Urcheon of Erlenwald</string>
+    <string name="emhy_Rce">Human</string>
+    <string name="emhy_Nat">Nilfgaard</string>
+    <string name="emhy_Prf">Imperator of Nilfgaard</string>
+    <string name="emhy_Bio">Emhyr var Emreis, Deithwen Addan yn Carn aep Morvudd (in the
+                            Nilfgaardian dialect - The White Flame Dancing on the Barrows of his
+                            Enemies), also known to a few under his alias as Duny, the Urcheon of
+                            Erlenwald (Polish: Jeż z Erlenwaldu) was the Imperator of the
+                            Nilfgaardian Empire, Lord of Metinna, Ebbing, Gemmera, Sovereign of
+                            Nazair, Vicovaro and, after marrying Cirilla, King of Cintra, from
+                            1257 when he overthrew the Usurper who murdered his father, Fergus var
+                            Emreis, until his death sometime in the late 13th century.
+                            His rule of Nilfgaard was highly aggressive, often pursuing
+                            expansionist policies similar to those of his predecessors. This led
+                            to the outbreak of two wars against the Northern Kingdoms, both of
+                            which he lost. Emhyr var Emreis was an intelligent and brilliant ruler.
+                            He chose his people well and crushed many plots against him. He was
+                            ruthless toward traitors and moved towards his goals with great
+                            determination.
+                            He was publicly favorable to the Elder Race, in stark contrast to
+                            monarchs of the North. </string>
+
+    <string name="regis">Emiel Regis Rohellec Terzieff-Godefroy</string>
+    <string name="regis_Als">Regis</string>
+    <string name="regis_Rce">Higher Vampire</string>
+    <string name="regis_Nat">Toussaint</string>
+    <string name="regis_Prf">Barber-Surgeon</string>
+    <string name="regis_Bio">Emiel Regis Rohellec Terzieff-Godefroy, better known simply as Regis,
+                                was a very powerful higher vampire, and more than four hundred
+                                years old when he first met Geralt of Rivia. He was the
+                                barber-surgeon of Dillingen but surprisingly intellectual for
+                                one in such a profession. </string>
+
+    <string name="eredin">Eredin Bréacc Glas</string>
+    <string name="eredin_Als">Sparrowhawk</string>
+    <string name="eredin_Rce">Elf</string>
+    <string name="eredin_Nat">Tir na Lia</string>
+    <string name="eredin_Prf">King of the Wild-Hunt</string>
+    <string name="eredin_Bio">Eredin Bréacc Glas, also dubbed "Sparrowhawk" by the unicorns, was
+                                an Aen Elle elf and commander of an elven cavalry known as the Wild
+                                Hunt. As its leader, he was known to most as the King of the Wild
+                                Hunt. Eredin was a high ranking general in his world until he
+                                killed the king and became his successor. </string>
+
+    <string name="geralt">Geralt of Rivia</string>
+    <string name="geralt_Als">White Wolf, Gwynbleidd, White One, Butcher of Blaviken,
+                                Ravix of Fourhorn</string>
+    <string name="geralt_Rce">Human</string>
+    <string name="geralt_Nat">Kaedwen</string>
+    <string name="geralt_Prf">Witcher</string>
+    <string name="geralt_Bio">Geralt of Rivia is a witcher and the main protagonist of the Witcher
+                                series by Andrzej Sapkowski and its adaptations, including The
+                                Witcher (PC), The Witcher 2: Assassins of Kings, and The Witcher
+                                3: Wild Hunt video games. Like all witchers, Geralt is a monster
+                                hunter for hire. He possesses superhuman abilities and is a master
+                                swordsman. During the Trial of the Grasses, Geralt exhibited
+                                unusual tolerance for the mutagens that grant witchers their
+                                abilities. Accordingly, Geralt was subjected to further
+                                experimental mutagens which rendered his hair white and may have
+                                given him greater speed, strength, and stamina than his fellow
+                                witchers.
+                                Geralt is also known as Gwynbleidd, meaning "White Wolf" in
+                                Elder Speech. He was given this alias by the dryads, and is also
+                                called the Butcher of Blaviken after an unfortunate incident in
+                                that town.
+                                Despite his title, Geralt does not hail from the city of Rivia.
+                                After being left with the witchers by his mother, Visenna, he grew
+                                up in their keep of Kaer Morhen in the realm of Kaedwen. In the
+                                interest of appearing more trustworthy to potential clients,
+                                young witchers were encouraged to make up surnames for themselves
+                                by master Vesemir. As his first choice, Geralt chose "Geralt
+                                Roger Eric du Haute-Bellegarde", but this choice was dismissed
+                                by Vesemir as silly and pretentious, so "Geralt" was all that
+                                remained of his chosen name. "Of Rivia" was a more practical
+                                alternative and Geralt even went so far as to adopt a Rivian
+                                accent to appear more authentic.
+                                Later, Queen Meve of Lyria knighted him for his valour in the
+                                Battle for the Bridge on the Yaruga conferring on him the formal
+                                title "of Rivia", which amused him. He, therefore, became a true
+                                knight of Lyria, only to lose the title soon after for
+                                departing. </string>
+
+    <string name="jaskier">Julian Alfred Pankratz</string>
+    <string name="jaskier_Als">Dandelion, Jaskier, The Crimson Avenger</string>
+    <string name="jaskier_Rce">Human</string>
+    <string name="jaskier_Nat">Redania</string>
+    <string name="jaskier_Prf">Bard</string>
+    <string name="jaskier_Bio">Julian Alfred Pankratz, Viscount de Lettenhove, better known as
+                                Dandelion, was a poet, minstrel, bard, and close friend of Geralt
+                                of Rivia.</string>
+
+    <string name="triss">Triss Merigold</string>
+    <string name="triss_Als">Fourteenth of the Hill, Merigold the Fearless</string>
+    <string name="triss_Rce">Human</string>
+    <string name="triss_Nat">Temeria</string>
+    <string name="triss_Prf">Advisor, Mage</string>
+    <string name="triss_Bio">Triss Merigold of Maribor was a legendary Temerian sorceress of the
+                                13th century. Called Fourteenth of the Hill by her contemporaries
+                                because she was erroneously thought to have been killed during the
+                                Battle of Sodden Hill, she passed into history as Merigold the
+                                Fearless. A member of King Foltest\'s royal council along with
+                                Fercart and Keira Metz, as well as a founding member of the Lodge
+                                of Sorceresses, she was involved in politics for most of her life.
+                                She was friends with Yennefer and the witcher Geralt of Rivia,
+                                but also unhappily in love with the latter.[1] Triss took care of
+                                Ciri at Kaer Morhen for some time and is like an older sister to
+                                her. It was through her intervention that Ciri was not subjected
+                                to harmful hormone changes at Kaer Morhen, stripping her of her
+                                secondary gender traits.
+                                She was a skilled healer and carried with her many magical potions,
+                                but she never uses them on herself because ironically, she was
+                                allergic to potions. She was also quite a powerful mage, certainly
+                                when it counted most. She wore an amulet - sapphire overlaid with
+                                silver. </string>
+    <string name="race">Race: </string>
+    <string name="nationality">Nationality: </string>
+    <string name="name">Name:</string>
+    <string name="profession">Profession:</string>
+    <string name="biography">Biography:</string>
+    <string name="alias_es">Alias(es):</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string name="this_fragment_is_added_statically">This fragment is added statically.</string>
+    <string name="this_is_a_red_fragment">This is a red fragment.</string>
+    <string name="send_data_to_main">Send data to Main</string>
+    <string name="remove_all_fragments">Remove all Fragments</string>
+    <string name="remove_red_fragment">Remove Red Fragment</string>
+    <string name="remove_blue_fragment">Remove Blue Fragment</string>
+    <string name="add_red_fragment">Add Red Fragment</string>
+    <string name="add_blue_fragment">Add Blue Fragment</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="add_yellow_fragment">Add Yellow Fragment</string>
+    <string name="remove_yellow_fragment">Remove Yellow Fragment</string>
+</resources>

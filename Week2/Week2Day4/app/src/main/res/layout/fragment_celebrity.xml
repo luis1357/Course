@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80ffffff">
+
+
+    <ImageView
+        android:id="@+id/ivCelebPht"
+        android:layout_width="144dp"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/triss" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ivCelebPht"
+        android:text="@string/name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblRace"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llAlias"
+        android:layout_toEndOf="@+id/ivCelebPht"
+        android:text="@string/race"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblNat"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRace"
+        android:layout_toEndOf="@+id/ivCelebPht"
+        android:text="@string/nationality"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblProf"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNat"
+        android:layout_toEndOf="@+id/ivCelebPht"
+        android:text="@string/profession"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblBio"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblProf"
+        android:layout_toEndOf="@+id/ivCelebPht"
+        android:text="@string/biography"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/lblName"
+        android:text="@string/triss" />
+
+    <TextView
+        android:id="@+id/tvRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblRace"
+        android:layout_toEndOf="@+id/lblName"
+        android:text="@string/triss_Rce" />
+
+    <TextView
+        android:id="@+id/tvNat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRace"
+        android:layout_toEndOf="@+id/lblName"
+        android:text="@string/triss_Nat" />
+
+    <TextView
+        android:id="@+id/tvProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNat"
+        android:layout_toEndOf="@+id/lblName"
+        android:text="@string/triss_Prf" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lblBio"
+        android:layout_toEndOf="@+id/ivCelebPht">
+
+        <LinearLayout
+            android:id="@+id/llDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvBio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/triss_Bio" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/llAlias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblName"
+        android:layout_toEndOf="@+id/ivCelebPht"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblAlias"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/alias_es"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAlias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/triss_Als" />
+    </LinearLayout>
+
+</RelativeLayout>
