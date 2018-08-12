@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:text="@string/weekend2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Spacer1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/lblTitle"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etTextSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Spacer1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/write_message"
+        android:inputType="textCapCharacters" />
+
+    <EditText
+        android:id="@+id/etPhoneNmbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTextSms"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPhoneNmbr"
+        android:layout_centerHorizontal="true"
+        android:text="@string/send_sms"
+        android:onClick="SendSMS"/>
+
+    <Button
+        android:id="@+id/btnPdfReader"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSendSMS"
+        android:layout_centerHorizontal="true"
+        android:onClick="GoToPdfReader"
+        android:text="@string/go_to_pdf_reader" />
+
+    <Button
+        android:id="@+id/btnImgFrgmt"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPdfReader"
+        android:layout_centerHorizontal="true"
+        android:text="@string/show_image_fragment"
+        android:onClick="ShowImg"/>
+
+    <Button
+        android:id="@+id/btnDfltAlrtDlg"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnImgFrgmt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/show_default_alert_dialog"
+        android:onClick="ShowDfltAlrtDlg"/>
+
+    <Button
+        android:id="@+id/btnCstmLaytAlrtDlg"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDfltAlrtDlg"
+        android:layout_centerHorizontal="true"
+        android:onClick="ShowCstmAlrtDlg"
+        android:text="@string/show_custom_alert" />
+
+    <Button
+        android:id="@+id/btnLstAlrtDlg"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCstmLaytAlrtDlg"
+        android:layout_centerHorizontal="true"
+        android:text="@string/show_list_alert"
+        android:onClick="ShowLstAlrtDlg"/>
+
+    <Button
+        android:id="@+id/btnNotification"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLstAlrtDlg"
+        android:layout_centerHorizontal="true"
+        android:text="@string/create_notification"
+        android:onClick="CreateNotification"/>
+
+    <Button
+        android:id="@+id/btnCounter"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNotification"
+        android:layout_centerHorizontal="true"
+        android:text="@string/go_to_counter"
+        android:onClick="GoToCounter"/>
+
+</RelativeLayout>

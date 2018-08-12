@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WeekEnd2</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="stark_logo">Stark Logo</string>
+    <string name="title_activity_pdf_reader">PdfReader</string>
+    <string name="go_to_pdf_reader">Go to Pdf Reader</string>
+    <string name="weekend2">WeekEnd2</string>
+    <string name="husky_puppy">Husky Puppy</string>
+    <string name="show_image_fragment">Show Image Fragment</string>
+    <string name="show_default_alert_dialog">Show Default Alert Dialog</string>
+    <string name="username">Username:</string>
+    <string name="email">Email:</string>
+    <string name="toggle_password_text_view">Toggle Password/Text View</string>
+    <string name="show_custom_alert">Show Custom Alert</string>
+    <string name="show_list_alert">Show List Alert</string>
+    <string name="create_notification">Create Notification</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="write_message">Write Message...</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="title_activity_counter">Counter</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="counter">0</string>
+    <string name="go_to_counter">Go To Counter</string>
+</resources>

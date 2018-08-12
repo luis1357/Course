@@ -16,9 +16,9 @@ import android.widget.Toast;
 
 public class CelebrityFragment extends Fragment
 {
-    private static final String ARG_PARAM1 = "param1";
+        private static final String ARG_PARAM1 = "param1";
 
-    private String mParam1;
+        private String mParam1;
 
     private TextView tvCelebName;
     private TextView tvCelebAlias;
