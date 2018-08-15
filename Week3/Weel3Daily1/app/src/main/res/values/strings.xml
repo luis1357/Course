@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Week3Daily1</string>
+    <string name="input">Input</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="stark_logo">Stark Logo</string>
+    <string name="wanna_play_something_cool">Wanna play something cool?</string>
+
+    <!-- Crazy Laws. -->
+    <string name="law1">In Alabama … it\'s illegal to drive blindfolded.</string>
+    <string name="law2">In Alaska … you can\'t put an animal in the back of an open
+                        vehicle</string>
+    <string name="law3">In Arizona … it\'s illegal for a donkey to sleep in a bathtub.</string>
+    <string name="law4">In Arkansas … you can\'t honk your horn near a sandwich shop
+                        after 9 p.m. </string>
+    <string name="law5">In California … plastic bags are banned.</string>
+    <string name="law6">In Colorado … it\'s illegal to keep a couch on your porch.</string>
+    <string name="law7">In Connecticut … a pickle must be able to bounce.</string>
+    <string name="law8">In Delaware … you can\'t sell dog hair.</string>
+    <string name="law9">In Florida … legal parking fees toward animals must be paid.</string>
+    <string name="law10">In Georgia … it\'s illegal to live on a boat for more than
+                        30 days.</string>
+    <string name="law11">In Hawaii … it\'s illegal to place a coin in one's ear.</string>
+    <string name="law12">In Idaho … it\'s illegal to sweep debris into the streets.</string>
+    <string name="law13">In Illinois … it\'s legal for minors who are in culinary school to
+                        drink alcohol. </string>
+    <string name="law14">In Indiana … it\'s illegal to ride a horse above 10 MPH. </string>
+    <string name="law15">In Iowa … you cannot throw a brick onto a highway.</string>
+    <string name="law16">In Kansas … tire screeching is banned.</string>
+    <string name="law17">In Kentucky … a woman cannot marry more than three times.</string>
+    <string name="law18">In Louisiana … it\'s illegal to send a surprise pizza.</string>
+    <string name="law19">In Maine … it\'s illegal to park in front of Dunkin\' Donuts.</string>
+    <string name="law20">In Maryland … sleeveless shirts are banned in public.</string>
+    <string name="law21">In Massachusetts … it\'s illegal to tell fortunes without
+                        certification.</string>
+    <string name="law22">In Michigan … don\'t even think about selling your vehicle on
+                        a Sunday.</string>
+    <string name="law23">In Minnesota … dirty tires are banned.</string>
+    <string name="law24">In Mississippi … nutrition labels cannot be enforced.</string>
+    <string name="law25">In Missouri … bear wrestling is banned.</string>
+    <string name="law26">In Montana … it\'s illegal to give a rat as a present.</string>
+    <string name="law27">In Nebraska … you can\'t get married if you have a venereal
+                        disease.</string>
+    <string name="law28">In Nevada … it\'s illegal to sit on sidewalks.</string>
+    <string name="law29">In New Hampshire … it\'s unlawful to pick up seaweed
+                        off the beach.</string>
+    <string name="law30">In New Jersey … bullet-proof vests are banned while
+                        committing a crime.</string>
+
+    <!-- Crazy Laws. -->
+    <string name="food1">Pear.</string>
+    <string name="food2">Apple.</string>
+    <string name="food3">Pineapple.</string>
+    <string name="food4">Lemon.</string>
+    <string name="food5">Orange.</string>
+    <string name="food6">Citron.</string>
+    <string name="food7">Seaweed.</string>
+    <string name="food8">Sushi.</string>
+    <string name="food9">Pie.</string>
+    <string name="food10">Jelly.</string>
+    <string name="food11">Pizza.</string>
+    <string name="food12">JellyBean.</string>
+    <string name="food13">Cheetos.</string>
+    <string name="food14">Doritos.</string>
+    <string name="food15">Shrimp.</string>
+    <string name="food16">Pork.</string>
+    <string name="food17">Chicken.</string>
+    <string name="food18">Soup.</string>
+    <string name="food19">Mushroom.</string>
+    <string name="food20">Carrot.</string>
+    <string name="food21">Tomato.</string>
+    <string name="food22">Avocado.</string>
+    <string name="food23">Taco.</string>
+    <string name="food24">Sandwich.</string>
+    <string name="food25">Subway.</string>
+    <string name="food26">Gyro.</string>
+    <string name="food27">Pasta.</string>
+    <string name="food28">Cookie.</string>
+    <string name="food29">Twinkie.</string>
+    <string name="food30">Donut.</string>
+    <string name="title_activity_random_list">RandomList</string>
+
+
+</resources>

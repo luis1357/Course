@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Week3Day2</string>
+    <string name="create_a_person">Create a Person</string>
+    <string name="person_name">Person Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender:</string>
+    <string name="nationality">Nationality</string>
+    <string name="submit_person">Submit Person</string>
+
+    <!-- Spinner Resources. -->
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_recycler__persons">Recycler_Persons</string>
+    <string name="go_to_list">Go to List</string>
+</resources>
