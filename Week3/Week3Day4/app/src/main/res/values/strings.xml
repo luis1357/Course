@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week3Day4</string>
+    <string name="search_by_zip_code">Search by Zip Code...</string>
+    <string name="go">Go</string>
+    <string name="city">City</string>
+    <string name="_26_c">26 C</string>
+    <string name="low">Low:</string>
+    <string name="high">High:</string>
+    <string name="textview">TextView</string>
+    <string name="c">°C</string>
+</resources>

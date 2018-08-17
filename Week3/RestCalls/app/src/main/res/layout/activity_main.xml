@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnNativeHttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makeCall"
+        android:text="@string/use_native_http"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btnOkHttpsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makeCall"
+        android:text="@string/use_Ok"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btnOkHttpAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makeCall"
+        android:text="@string/use_Ok_A"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btnRetroFitSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makeCall"
+        android:text="@string/use_Retrofit"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/tvMyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnRetroFitASync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makeCall"
+        android:text="@string/use_Retrofit_ASync"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btnRetroFitRx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makeCall"
+        android:text="@string/use_Retrofit_Rx"
+        android:textColor="@color/colorBlack"/>
+
+</LinearLayout>

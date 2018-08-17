@@ -1,15 +1,17 @@
 package com.yeah.ruisu.week3daily1;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.media.MediaPlayer;
 
 public class MusicControl
 {
+    @SuppressLint("StaticFieldLeak")
     private static MusicControl sInstance;
     private Context mContext;
     private MediaPlayer mMediaPlayer;
 
-    public MusicControl(Context context)
+    private MusicControl(Context context)
     {
         mContext = context;
     }

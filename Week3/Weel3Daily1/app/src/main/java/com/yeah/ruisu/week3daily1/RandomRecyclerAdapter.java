@@ -44,17 +44,10 @@ public class RandomRecyclerAdapter
 
         if(RndObjtTemp != null)
         {
-            /*
-            int resourceId = holder.itemView.getResources()
-                                                    .getIdentifier("@string/help",
-                                                                    "string",
-                                                                    holder.itemView
-                                                                            .getContext()
-                                                                            .getPackageName());
-
-            holder.tvLuckyNumber.setText();
-            holder.tvFood.setText(String.valueOf(celebrityTemp.age));
-            holder.tvRandomFact.setText(String.valueOf(celebrityTemp.weight));*/
+            holder.tvLuckyNumber.setText(RndObjtTemp.LuckyNmbr);
+            holder.tvFood.setText(String.valueOf(RndObjtTemp.RandomFood));
+            holder.tvRandomFact.setText(String.valueOf(RndObjtTemp.RandomFact));
+            holder.ivPhoto.setImageResource(RndObjtTemp.ImageName);
         }
     }
 

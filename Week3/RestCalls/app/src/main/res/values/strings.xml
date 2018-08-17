@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RestCalls</string>
+    <string name="use_native_http">Use native http</string>
+    <string name="use_Ok">Use Ok Http Sync</string>
+    <string name="use_Ok_A">Use Ok Http Async</string>
+    <string name="use_Retrofit">Use Retrofit Sync</string>
+    <string name="use_Retrofit_ASync">Use Retrofit With Async</string>
+    <string name="hello_world">Hello world</string>
+    <string name="use_Retrofit_Rx">Use Retrofit Rx</string>
+</resources>

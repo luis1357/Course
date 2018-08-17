@@ -2,9 +2,10 @@ package com.yeah.ruisu.week3daily1;
 
 public class MyObject
 {
-    String ImageName, LuckyNmbr, RandomFood, RandomFact;
+    String LuckyNmbr, RandomFood, RandomFact;
+    int ImageName;
 
-    public MyObject(String imageName, String luckyNmbr, String randomFood, String randomFact)
+    public MyObject(int imageName, String luckyNmbr, String randomFood, String randomFact)
     {
         ImageName = imageName;
         LuckyNmbr = luckyNmbr;
@@ -12,12 +13,12 @@ public class MyObject
         RandomFact = randomFact;
     }
 
-    public String getImageName()
+    public int getImageName()
     {
         return ImageName;
     }
 
-    public void setImageName(String imageName)
+    public void setImageName(int imageName)
     {
         ImageName = imageName;
     }
