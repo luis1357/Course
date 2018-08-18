@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etNumberInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Input numbers"
+        android:inputType="number"
+        android:text="526572" />
+
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/etNumberInput"
+        android:onClick="MySort"
+        android:text="Sort Numbers" />
+
+    <TextView
+        android:id="@+id/tvSortedArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etNumberInput"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/etInSubstring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSortedArray"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Atlanta" />
+
+    <Button
+        android:id="@+id/btngetSubtstrings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSortedArray"
+        android:layout_toEndOf="@+id/etNumberInput"
+        android:onClick="GetSubstrings"
+        android:text="GetSubstrings" />
+
+    <TextView
+        android:id="@+id/tvSubstringsOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etInSubstring"
+        android:text="TextView" />
+</RelativeLayout>
