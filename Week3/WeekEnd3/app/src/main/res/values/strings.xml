@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeekEnd3</string>
+    <string name="book_searcher">Book Searcher</string>
+    <string name="author">Author...</string>
+    <string name="book_title">Book Title</string>
+    <string name="search_book">Search Book</string>
+    <string name="search_booket">Search Book...</string>
+    <string name="andzrej_sapkowski">Andzrej Sapkowski</string>
+    <string name="book_description">Book Description</string>
+    <string name="the_last_wish">The Last Wish</string>
+    <string name="book_picture">Book Picture</string>
+</resources>
