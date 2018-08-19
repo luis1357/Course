@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeekEnd3_1</string>
+    <string name="SendSMS">Send an SMS</string>
+    <string name="write_message">Write a SMS</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_sms">Send SMS</string>
+</resources>
