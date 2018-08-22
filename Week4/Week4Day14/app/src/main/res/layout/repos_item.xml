@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvRepoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/repositorie_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/lblRepoLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvRepoName"
+        android:text="@string/language"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/tvRepoLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRepoName"
+        android:layout_toEndOf="@+id/lblRepoLanguage" />
+
+    <TextView
+        android:id="@+id/lblRepoLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblRepoLanguage"
+        android:text="@string/link"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/tvRepoLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRepoLanguage"
+        android:layout_toEndOf="@+id/lblRepoLink" />
+</RelativeLayout>
