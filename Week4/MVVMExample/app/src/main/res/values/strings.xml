@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVMExample</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="fav_animal">Favorite Animal</string>
+    <string name="age">Age</string>
+    <string name="save_person">Save Person</string>
+</resources>

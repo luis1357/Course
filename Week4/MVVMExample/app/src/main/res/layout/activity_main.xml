@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.yeah.ruisu.mvvmexample.UserViewModel" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name"
+            android:inputType="text|textCapWords|textPersonName"
+            android:text="@={viewModel.firstName}" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:hint="@string/last_name"
+            android:inputType="text|textCapWords|textPersonName"
+            android:text="@={viewModel.lastName}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etFavAnimal"
+            android:hint="@string/fav_animal"
+            android:inputType="text|textCapWords|textPersonName"
+            android:text="@={viewModel.favoriteAnimal}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age"
+            android:inputType="number"
+            android:text="@={viewModel.age}" />
+
+        <Button
+            android:id="@+id/btnSavePerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_person"
+            android:onClick="@{() -> viewModel.storeUser()}"/>
+
+    </LinearLayout>
+</layout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Week4Day1</string>
+    <string name="search_user">Search a User...</string>
+    <string name="search">Search</string>
 </resources>

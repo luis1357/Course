@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week4Day1.3</string>
+    <string name="search_user">Search User</string>
+    <string name="search">Search</string>
+    <string name="manroopsingh">manroopsingh</string>
+    <string name="location">Location:</string>
+    <string name="santa_clara_california">Santa Clara, California</string>
+    <string name="hirable">Hirable:</string>
+    <string name="repositories">Repositories:</string>
+    <string name="_39">39</string>
+</resources>
