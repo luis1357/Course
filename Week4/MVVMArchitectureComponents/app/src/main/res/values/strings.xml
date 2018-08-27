@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MVVMArchitectureComponents</string>
+    <string name="f">° F</string>
+    <string name="_32">32</string>
+    <string name="_100">100</string>
+    <string name="low">Low:</string>
+    <string name="high">High:</string>
+    <string name="weather_icon">Weather Icon</string>
+
+    <string name="all_weatherMain">"The weather will be mainly %s on %s at %s"</string>
 </resources>

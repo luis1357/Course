@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week4Day2</string>
+    <string name="search_user">Search User</string>
+    <string name="manroopsingh">manroopsingh</string>
+    <string name="search">Search</string>
+    <string name="location">Location:</string>
+    <string name="hirable">Hirable:</string>
+    <string name="repositories">Repositories:</string>
+    <string name="show_repositories">Show Repositories</string>
+    <string name="title_activity_repo__recycler">Repo_Recycler</string>
+</resources>

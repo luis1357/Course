@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yeah.ruisu.weekend4.Main2Activity">
+    <item android:id="@+id/restaurant"
+        android:title="@string/restaurants" />
+    <item android:id="@+id/bars"
+        android:title="@string/bars" />
+    <item android:id="@+id/coffee"
+        android:title="@string/coffee" />
+    <item android:id="@+id/brunch"
+        android:title="@string/brunch" />
+    <item android:id="@+id/dessert"
+        android:title="@string/dessert" />
+    <item android:id="@+id/delivery"
+        android:title="@string/delivery" />
+    <item android:id="@+id/takeout"
+        android:title="@string/takeout" />
+</menu>

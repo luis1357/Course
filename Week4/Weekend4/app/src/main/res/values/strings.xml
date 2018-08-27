@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weekend4</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="bars">Bars</string>
+    <string name="coffee">Coffee</string>
+    <string name="brunch">Brunch</string>
+    <string name="dessert">Dessert</string>
+    <string name="delivery">Delivery</string>
+    <string name="takeout">Takeout</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="places">Places</string>
+    <string name="adress">Adress</string>
+</resources>
