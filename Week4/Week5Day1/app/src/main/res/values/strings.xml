@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Week5Day1</string>
+    <string name="enter_contact_name">Enter Contact Name</string>
+    <string name="read_phone_contacts">Read Phone Contacts</string>
+</resources>

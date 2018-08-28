@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RetrievePhoneContacts</string>
+    <string name="read_phone_contacts">Read Phone Contacts</string>
+    <string name="enter_contact_name">Enter Contact Name</string>
+</resources>
