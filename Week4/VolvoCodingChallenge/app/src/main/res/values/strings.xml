@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VolvoCodingChallenge</string>
+    <string name="search_a_city">Search a City</string>
+    <string name="search">Search</string>
+    <string name="custom_city">Custom City</string>
+    <string name="a_weather_status">A Weather Status</string>
+    <string name="expected">Expected:</string>
+    <string name="_100">100</string>
+    <string name="c">°C</string>
+    <string name="high">High:</string>
+    <string name="_120">120</string>
+    <string name="low">Low:</string>
+    <string name="_0">0</string>
+</resources>

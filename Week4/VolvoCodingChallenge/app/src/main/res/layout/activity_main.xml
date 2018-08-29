@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.yeah.ruisu.volvocodingchallenge.ui.MainViewModel" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity"
+        android:background="@drawable/back">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorMyWhite">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/rlCityGothenburg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tvCstmCtyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@{viewModel.cstCityName}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/ivForeCstmIcon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/tvCstmCtyName"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvCstmCityStts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvCstmCtyName"
+                        android:layout_toEndOf="@+id/ivForeCstmIcon"
+                        android:text="@{viewModel.cstCtyStatus}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblCstmCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/tvCstmCityStts"
+                        android:layout_below="@+id/tvCstmCityStts"
+                        android:text="@string/expected"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvCstmCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/lblCstmCtyExpctd"
+                        android:layout_toEndOf="@+id/lblCstmCtyExpctd"
+                        android:text="@{viewModel.cstCtyExpctd}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblCstmCtyExpctdC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblCstmCtyExpctd"
+                        android:layout_toEndOf="@+id/tvCstmCtyExpctd"
+                        android:text="@string/c" />
+
+                    <TextView
+                        android:id="@+id/lblCstmCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblCstmCtyExpctd"
+                        android:layout_toEndOf="@+id/ivForeCstmIcon"
+                        android:text="@string/high" />
+
+                    <TextView
+                        android:id="@+id/tvCstmCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblCstmCtyExpctd"
+                        android:layout_toEndOf="@+id/lblCstmCtyHgh"
+                        android:text="@{viewModel.cstCtyHgh}" />
+
+                    <TextView
+                        android:id="@+id/tvCstmCtyHghC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblCstmCtyHgh"
+                        android:layout_toEndOf="@+id/tvCstmCtyHgh"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lblCstmCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblCstmCtyHgh"
+                        android:layout_toEndOf="@+id/ivForeCstmIcon"
+                        android:text="@string/low" />
+
+                    <TextView
+                        android:id="@+id/tvCstmCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblCstmCtyHgh"
+                        android:layout_toEndOf="@+id/lblCstmCtyLw"
+                        android:text="@{viewModel.cstCtyLw}" />
+
+                    <TextView
+                        android:id="@+id/lblCstmCtyLwC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvCstmCtyLw"
+                        android:layout_toEndOf="@+id/tvCstmCtyLw"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlCityStockholm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tvStockCtyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@{viewModel.stckCityName}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/ivForeStockIcon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/tvStockCtyName"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvStockCityStts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvStockCtyName"
+                        android:layout_toEndOf="@+id/ivForeStockIcon"
+                        android:text="@{viewModel.stckCtyStatus}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblStockCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/tvStockCityStts"
+                        android:layout_below="@+id/tvStockCityStts"
+                        android:text="@string/expected"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvStockCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/lblStockCtyExpctd"
+                        android:layout_toEndOf="@+id/lblStockCtyExpctd"
+                        android:text="@{viewModel.stckCtyExpctd}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblStockCtyExpctdC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblStockCtyExpctd"
+                        android:layout_toEndOf="@+id/tvStockCtyExpctd"
+                        android:text="@string/c" />
+
+                    <TextView
+                        android:id="@+id/lblStockCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblStockCtyExpctd"
+                        android:layout_toEndOf="@+id/ivForeStockIcon"
+                        android:text="@string/high" />
+
+                    <TextView
+                        android:id="@+id/tvStockCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblStockCtyExpctd"
+                        android:layout_toEndOf="@+id/lblStockCtyHgh"
+                        android:text="@{viewModel.stckCtyHgh}" />
+
+                    <TextView
+                        android:id="@+id/tvStockCtyHghC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblStockCtyHgh"
+                        android:layout_toEndOf="@+id/tvStockCtyHgh"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lblStockCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblStockCtyHgh"
+                        android:layout_toEndOf="@+id/ivForeStockIcon"
+                        android:text="@string/low" />
+
+                    <TextView
+                        android:id="@+id/tvStockCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblStockCtyHgh"
+                        android:layout_toEndOf="@+id/lblStockCtyLw"
+                        android:text="@{viewModel.stckCtyLw}" />
+
+                    <TextView
+                        android:id="@+id/lblStockCtyLwC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvStockCtyLw"
+                        android:layout_toEndOf="@+id/tvStockCtyLw"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlCityMountain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tvMntnVwCtyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@{viewModel.mntnCityName}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/ivForeMntnVwIcon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/tvMntnVwCtyName"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvMntnVwCityStts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvMntnVwCtyName"
+                        android:layout_toEndOf="@+id/ivForeMntnVwIcon"
+                        android:text="@{viewModel.mntnCtyStatus}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblMntnVwCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/tvMntnVwCityStts"
+                        android:layout_below="@+id/tvMntnVwCityStts"
+                        android:text="@string/expected"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvMntnVwCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/lblMntnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/lblMntnVwCtyExpctd"
+                        android:text="@{viewModel.mntnCtyExpctd}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblMntnVwCtyExpctdC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblMntnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/tvMntnVwCtyExpctd"
+                        android:text="@string/c" />
+
+                    <TextView
+                        android:id="@+id/lblMntnVwCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblMntnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/ivForeMntnVwIcon"
+                        android:text="@string/high" />
+
+                    <TextView
+                        android:id="@+id/tvMntnVwCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblMntnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/lblMntnVwCtyHgh"
+                        android:text="@{viewModel.mntnCtyHgh}" />
+
+                    <TextView
+                        android:id="@+id/tvMntnVwCtyHghC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblMntnVwCtyHgh"
+                        android:layout_toEndOf="@+id/tvMntnVwCtyHgh"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lblMntnVwCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblMntnVwCtyHgh"
+                        android:layout_toEndOf="@+id/ivForeMntnVwIcon"
+                        android:text="@string/low" />
+
+                    <TextView
+                        android:id="@+id/tvMntnVwCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblMntnVwCtyHgh"
+                        android:layout_toEndOf="@+id/lblMntnVwCtyLw"
+                        android:text="@{viewModel.mntnCtyLw}" />
+
+                    <TextView
+                        android:id="@+id/lblMntnVwCtyLwC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvMntnVwCtyLw"
+                        android:layout_toEndOf="@+id/tvMntnVwCtyLw"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlCityLondon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tvLndnVwCtyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@{viewModel.lndnCityName}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/ivForeLndnVwIcon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/tvLndnVwCtyName"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvLndnVwCityStts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvLndnVwCtyName"
+                        android:layout_toEndOf="@+id/ivForeLndnVwIcon"
+                        android:text="@{viewModel.lndnCtyStatus}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblLndnVwCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/tvLndnVwCityStts"
+                        android:layout_below="@+id/tvLndnVwCityStts"
+                        android:text="@string/expected"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvLndnVwCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/lblLndnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/lblLndnVwCtyExpctd"
+                        android:text="@{viewModel.lndnCtyExpctd}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblLndnVwCtyExpctdC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblLndnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/tvLndnVwCtyExpctd"
+                        android:text="@string/c" />
+
+                    <TextView
+                        android:id="@+id/lblLndnVwCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblLndnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/ivForeLndnVwIcon"
+                        android:text="@string/high" />
+
+                    <TextView
+                        android:id="@+id/tvLndnVwCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblLndnVwCtyExpctd"
+                        android:layout_toEndOf="@+id/lblLndnVwCtyHgh"
+                        android:text="@{viewModel.lndnCtyHgh}" />
+
+                    <TextView
+                        android:id="@+id/tvLndnVwCtyHghC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblLndnVwCtyHgh"
+                        android:layout_toEndOf="@+id/tvLndnVwCtyHgh"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lblLndnVwCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblLndnVwCtyHgh"
+                        android:layout_toEndOf="@+id/ivForeLndnVwIcon"
+                        android:text="@string/low" />
+
+                    <TextView
+                        android:id="@+id/tvLndnVwCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblLndnVwCtyHgh"
+                        android:layout_toEndOf="@+id/lblLndnVwCtyLw"
+                        android:text="@{viewModel.lndnCtyLw}" />
+
+                    <TextView
+                        android:id="@+id/lblLndnVwCtyLwC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvLndnVwCtyLw"
+                        android:layout_toEndOf="@+id/tvLndnVwCtyLw"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlCityNewYork"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tvNwYrkVwCtyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@{viewModel.nwYrkCityName}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/ivForeNwYrkVwIcon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/tvNwYrkVwCtyName"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvNwYrkVwCityStts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvNwYrkVwCtyName"
+                        android:layout_toEndOf="@+id/ivForeNwYrkVwIcon"
+                        android:text="@{viewModel.nwYrkCtyStatus}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblNwYrkVwCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/tvNwYrkVwCityStts"
+                        android:layout_below="@+id/tvNwYrkVwCityStts"
+                        android:text="@string/expected"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvNwYrkVwCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/lblNwYrkVwCtyExpctd"
+                        android:layout_toEndOf="@+id/lblNwYrkVwCtyExpctd"
+                        android:text="@{viewModel.nwYrkCtyExpctd}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblNwYrkVwCtyExpctdC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblNwYrkVwCtyExpctd"
+                        android:layout_toEndOf="@+id/tvNwYrkVwCtyExpctd"
+                        android:text="@string/c" />
+
+                    <TextView
+                        android:id="@+id/lblNwYrkVwCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblNwYrkVwCtyExpctd"
+                        android:layout_toEndOf="@+id/ivForeNwYrkVwIcon"
+                        android:text="@string/high" />
+
+                    <TextView
+                        android:id="@+id/tvNwYrkVwCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblNwYrkVwCtyExpctd"
+                        android:layout_toEndOf="@+id/lblNwYrkVwCtyHgh"
+                        android:text="@{viewModel.nwYrkCtyHgh}" />
+
+                    <TextView
+                        android:id="@+id/tvNwYrkVwCtyHghC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblNwYrkVwCtyHgh"
+                        android:layout_toEndOf="@+id/tvNwYrkVwCtyHgh"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lblNwYrkVwCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblNwYrkVwCtyHgh"
+                        android:layout_toEndOf="@+id/ivForeNwYrkVwIcon"
+                        android:text="@string/low" />
+
+                    <TextView
+                        android:id="@+id/tvNwYrkVwCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblNwYrkVwCtyHgh"
+                        android:layout_toEndOf="@+id/lblNwYrkVwCtyLw"
+                        android:text="@{viewModel.nwYrkCtyLw}" />
+
+                    <TextView
+                        android:id="@+id/lblNwYrkVwCtyLwC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvNwYrkVwCtyLw"
+                        android:layout_toEndOf="@+id/tvNwYrkVwCtyLw"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlCityBerlin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tvBrlnCtyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@{viewModel.brlnCityName}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/ivForeBrlnIcon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/tvBrlnCtyName"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvBrlnCityStts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvBrlnCtyName"
+                        android:layout_toEndOf="@+id/ivForeBrlnIcon"
+                        android:text="@{viewModel.brlnCtyStatus}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblBrlnCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/tvBrlnCityStts"
+                        android:layout_below="@+id/tvBrlnCityStts"
+                        android:text="@string/expected"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvBrlnCtyExpctd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/lblBrlnCtyExpctd"
+                        android:layout_toEndOf="@+id/lblBrlnCtyExpctd"
+                        android:text="@{viewModel.brlnCtyExpctd}"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/lblBrlnCtyExpctdC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblBrlnCtyExpctd"
+                        android:layout_toEndOf="@+id/tvBrlnCtyExpctd"
+                        android:text="@string/c" />
+
+                    <TextView
+                        android:id="@+id/lblBrlnCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblBrlnCtyExpctd"
+                        android:layout_toEndOf="@+id/ivForeBrlnIcon"
+                        android:text="@string/high" />
+
+                    <TextView
+                        android:id="@+id/tvBrlnCtyHgh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblBrlnCtyExpctd"
+                        android:layout_toEndOf="@+id/lblBrlnCtyHgh"
+                        android:text="@{viewModel.brlnCtyHgh}" />
+
+                    <TextView
+                        android:id="@+id/tvBrlnCtyHghC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/lblBrlnCtyHgh"
+                        android:layout_toEndOf="@+id/tvBrlnCtyHgh"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lblBrlnCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblBrlnCtyHgh"
+                        android:layout_toEndOf="@+id/ivForeBrlnIcon"
+                        android:text="@string/low" />
+
+                    <TextView
+                        android:id="@+id/tvBrlnCtyLw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblBrlnCtyHgh"
+                        android:layout_toEndOf="@+id/lblBrlnCtyLw"
+                        android:text="@{viewModel.brlnCtyLw}" />
+
+                    <TextView
+                        android:id="@+id/lblBrlnCtyLwC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvBrlnCtyLw"
+                        android:layout_toEndOf="@+id/tvBrlnCtyLw"
+                        android:text="@string/c"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+</layout>
