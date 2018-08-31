@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RealVolvoCodingChallenge</string>
+    <string name="gothenburg">Gothenburg</string>
+    <string name="stockholm">Stockholm</string>
+    <string name="mountain_view">Mountain View</string>
+    <string name="london">London</string>
+    <string name="new_york">New York</string>
+    <string name="Berlin">Berlin</string>
+    <string name="some_text">some_text</string>
+    <string name="more_text">More Text</string>
+    <string name="a_picture">A picture!</string>
+</resources>
