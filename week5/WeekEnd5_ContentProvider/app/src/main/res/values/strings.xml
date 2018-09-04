@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeekEnd5_ContentProvider</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="house_address">House Address</string>
+    <string name="phone">Phone</string>
+    <string name="save_employee_save_via_content_provider">Save Employee (Save via Content Provider)</string>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>
