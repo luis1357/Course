@@ -31,4 +31,30 @@
         android:background="?attr/selectableItemBackground"
         android:text="@string/custom_padding"/>
 
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/btnOne"
+        app:layout_constraintTop_toBottomOf="@+id/myCstmVw"
+        android:onClick="onClick"
+        style="?android:attr/buttonBarStyle"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/swap_color" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTwo"
+        app:layout_constraintTop_toBottomOf="@+id/myCstmVw"
+        android:onClick="onClick"
+        style="?android:attr/buttonBarStyle"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/custom_paddingm"/>
+
 </android.support.constraint.ConstraintLayout>
