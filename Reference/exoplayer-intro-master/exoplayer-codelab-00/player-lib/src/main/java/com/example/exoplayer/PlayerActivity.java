@@ -42,7 +42,9 @@ public class PlayerActivity extends AppCompatActivity
   PlayerView playerView;
 
   ExoPlayer player;
-  //PlayWhenReady
+  boolean playWhenReady;
+  int currentWindow;
+  long playbackPosition;
 
   @Override
   protected void onCreate(Bundle savedInstanceState)
@@ -111,7 +113,7 @@ public class PlayerActivity extends AppCompatActivity
     player.setPlayWhenReady(playWhenReady);
     player.seekTo(currentWindow, playbackPosition);
 
-    Uri uri = Uri.parse(getString(R.string.media_url_mp3));
+    Uri uri = Uri.parse(getString(R.string.media_url_mp4));
     MediaSource mediaSource = buildMediaSource(uri);
     player.prepare(mediaSource, true, false);
   }
@@ -130,6 +132,8 @@ public class PlayerActivity extends AppCompatActivity
 
   private MediaSource buildMediaSource(Uri uri)
   {
+    /* These are */
+
     return new ExtractorMediaSource.Factory(
             new DefaultHttpDataSourceFactory("exoplayer-codelab"))
             .createMediaSource(uri);
