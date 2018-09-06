@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Week6Day3ISSLocator</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="time_of_pass">Time of Pass:</string>
+    <string name="some_time">some time</string>
+    <string name="duration">Duration:</string>
+    <string name="_300">300</string>
+    <string name="seconds">Seconds</string>
+</resources>
