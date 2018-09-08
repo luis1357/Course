@@ -39,7 +39,7 @@ public class CalculationUnitTest
     @Test
     public void testing_addition_should_add_two_numbers()
     {
-        //when(addition.add(9,9)).thenReturn(27);
+        when(addition.add(9,9)).thenReturn(27);
 
         assertEquals(calculation.addition(), 23);
     }
