@@ -18,6 +18,12 @@ public class MyIntentService extends IntentService
     }
 
     @Override
+    public void onStart(@Nullable Intent intent, int startId) {
+        Log.d(TAG, "onStart: ");
+        super.onStart(intent, startId);
+    }
+
+    @Override
     protected void onHandleIntent(@Nullable Intent intent)
     {
         Intent newIntent = new Intent();

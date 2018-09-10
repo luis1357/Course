@@ -35,5 +35,6 @@ public class MyScndReceiver extends BroadcastReceiver
                 PNation;
 
         Toast.makeText(context, CustmMsg, Toast.LENGTH_LONG).show();
+
     }
 }
