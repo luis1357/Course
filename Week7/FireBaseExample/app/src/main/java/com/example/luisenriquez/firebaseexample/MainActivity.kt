@@ -1,34 +1,46 @@
 package com.example.luisenriquez.firebaseexample
 
+import android.app.Activity
+import android.content.Intent
 import android.databinding.DataBindingUtil
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import com.example.luisenriquez.firebaseexample.databinding.ActivityMainBinding
 import com.example.luisenriquez.firebaseexample.util.Constants
+import com.firebase.ui.auth.AuthUI
+import com.firebase.ui.auth.IdpResponse
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
+import java.util.*
 
 class MainActivity : AppCompatActivity()
 {
-    val TAG ="Mainactivity: ";
 
-    lateinit var database : FirebaseDatabase
+    lateinit var database: FirebaseDatabase
     lateinit var databaseReference: DatabaseReference
-    lateinit var binding : ActivityMainBinding
+    lateinit var binding: ActivityMainBinding
     lateinit var valueEventListener: ValueEventListener
+    lateinit var firebaseLayoutManager: LinearLayoutManager
+    lateinit var firebaseAdapter: FireBaseAdapter
+    lateinit var firebaseAuth: FirebaseAuth
 
+    val TAG = "MainActivity"
+    var messages: ArrayList<Message> = ArrayList()
     var userName: String = Constants.ANONYMOUS
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
-        binding =DataBindingUtil.setContentView(this, R.layout.activity_main)
-
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        initializeRecyclerViewAdapter()
         initializeFirebaseComponents()
-
+        startFirebaseSignIn()
         addTextWatchers()
     }
 
@@ -47,40 +59,100 @@ class MainActivity : AppCompatActivity()
     fun sendMessage(view: View)
     {
         var message = Message(binding.etMessage.text.toString(), userName)
-
         databaseReference.push().setValue(message)
 
-        /* Clear Input boc. */
-        binding.etMessage.setText("");
+        /* Clear input box. */
+        binding.etMessage.setText("")
+    }
+
+    fun signOut(view: View)
+    {
+        AuthUI.getInstance().signOut(this)
+                .addOnCompleteListener {
+                    onSignedOutCleanup()
+                }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?)
+    {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (requestCode == Constants.RC_SIGN_IN
+                && resultCode == Activity.RESULT_OK)
+        {
+            firebaseAuth.currentUser?.displayName?.let { onSignedInInitialize(it) }
+            Toast.makeText(this, "Signed In", Toast.LENGTH_SHORT).show()
+        }
+        else
+        {
+            var response = IdpResponse.fromResultIntent(data)
+            Toast.makeText(this, response?.providerType, Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun initializeFirebaseComponents()
     {
         database = FirebaseDatabase.getInstance()
         databaseReference = database.reference.child("messages")
+        firebaseAuth = FirebaseAuth.getInstance()
+    }
+
+    private fun onSignedInInitialize(userName: String)
+    {
+        this.userName = userName
+    }
+
+    private fun onSignedOutCleanup()
+    {
+        userName = Constants.ANONYMOUS
+        firebaseAdapter.clear()
+        startFirebaseSignIn()
+    }
+
+    private fun startFirebaseSignIn()
+    {
+        startActivityForResult(AuthUI.getInstance()
+                .createSignInIntentBuilder()
+                .setIsSmartLockEnabled(false)
+                .setAvailableProviders(listOf(
+                        AuthUI.IdpConfig.EmailBuilder().build(),
+                        AuthUI.IdpConfig.GoogleBuilder().build(),
+                        AuthUI.IdpConfig.FacebookBuilder().build()))
+                .build(), Constants.RC_SIGN_IN)
+    }
+
+    private fun initializeRecyclerViewAdapter()
+    {
+        firebaseLayoutManager = LinearLayoutManager(this)
+        firebaseAdapter = FireBaseAdapter(messages)
+        binding.rvMain.apply {
+            adapter = firebaseAdapter
+            layoutManager = firebaseLayoutManager
+        }
     }
 
     private fun addReadListeners()
     {
         valueEventListener = object : ValueEventListener
         {
+
             override fun onCancelled(databaseError: DatabaseError)
             {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                Log.e("MainActivity", databaseError.message)
             }
 
-            override fun onDataChange(dataSnapshot: DataSnapshot)
+            override fun onDataChange(dataSnapshots: DataSnapshot)
             {
-                dataSnapshot.children.forEach{
-
-                    var message = it.getValue(Message::class.java)
-
-                    Log.d(TAG, message?.text)
+                messages.clear()
+                dataSnapshots.children.forEach { dataSnapshot ->
+                    var message = dataSnapshot.getValue(Message::class.java)
+                    message?.let {
+                        messages.add(it)
+                    }
                 }
+                firebaseAdapter.notifyDataSetChanged()
             }
-
         }
-
         databaseReference.addValueEventListener(valueEventListener)
     }
 
@@ -93,19 +165,26 @@ class MainActivity : AppCompatActivity()
     {
         binding.etMessage.addTextChangedListener(object : TextWatcher
         {
-            override fun afterTextChanged(s: Editable?)
-            {
-            }
 
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int)
-            {
-            }
+            override fun afterTextChanged(p0: Editable?) {}
 
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int)
-            {
-                binding.btnSend.isEnabled = s.toString().isNotBlank()
-            }
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
 
+            override fun onTextChanged(charSequence: CharSequence, p1: Int, p2: Int, p3: Int)
+            {
+                binding.btnSend.isEnabled = charSequence.toString().isNotBlank()
+            }
         })
+    }
+
+    private fun FireBaseAdapter.clear()
+    {
+        chatMessages.clear()
+        notifyDataSetChanged()
+    }
+
+    private fun Any?.isNotNull(): Boolean
+    {
+        return this != null
     }
 }

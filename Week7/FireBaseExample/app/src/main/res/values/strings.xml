@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">FireBaseExample</string>
     <string name="send">Send</string>
+    <string name="message">Message</string>
+    <string name="name">Name</string>
+
+    <string name="facebook_application_id">340066346739625</string>
+    <string name="fb_login_protocol_scheme">fb340066346739625</string>
+
 </resources>
