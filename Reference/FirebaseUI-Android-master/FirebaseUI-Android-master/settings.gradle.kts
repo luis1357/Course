@@ -1,0 +1,12 @@
+include(
+        ":app", ":library",
+
+        ":auth", ":auth-github",
+        ":common", ":firestore", ":database",
+        ":storage",
+
+
+        ":lint",
+
+        ":proguard-tests", ":internal:lint", ":internal:lintchecks"
+)

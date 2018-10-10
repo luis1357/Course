@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UdemyCourse1_1</string>
+    <string name="click_me">Click Me!</string>
+    <string name="switch_image">Switch Image</string>
+    <string name="currency">Currency</string>
+    <string name="title_activity_currency">CurrencyActivity</string>
+    <string name="write_an_amount_in_usd">Write an Amount in USD</string>
+    <string name="amount_in_usd">Amount in USD</string>
+    <string name="amount_in_mxn">Amount in MXN</string>
+    <string name="_0_00">0.00</string>
+    <string name="mxn">MXN</string>
+    <string name="convert">Convert</string>
+</resources>
